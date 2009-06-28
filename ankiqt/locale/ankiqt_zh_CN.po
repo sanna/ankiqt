@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 09:49+0900\n"
+"POT-Creation-Date: 2009-06-28 20:13+0200\n"
 "PO-Revision-Date: 2009-04-03 13:49+0100\n"
 "Last-Translator: Alaya129 <alaya129@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,14 +125,14 @@ msgstr[1] ""
 msgid "%d exported."
 msgstr "%d个输出了。"
 
-#: ui/main.py:2683
+#: ui/main.py:2698
 #, python-format
 msgid "%d missing file found.<br>"
 msgid_plural "%d missing files found.<br>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/main.py:2672
+#: ui/main.py:2687
 #, python-format
 msgid "%d missing reference."
 msgid_plural "%d missing references."
@@ -146,12 +146,12 @@ msgid_plural "%d selected"
 msgstr[0] "%d个输出了。"
 msgstr[1] "%d个输出了。"
 
-#: ui/main.py:2686
+#: ui/main.py:2701
 #, python-format
 msgid "%d successfully retrieved."
 msgstr ""
 
-#: ui/main.py:2674
+#: ui/main.py:2689
 #, python-format
 msgid "%d unused file removed."
 msgid_plural "%d unused files removed."
@@ -965,7 +965,7 @@ msgstr ""
 msgid "Alt+%d"
 msgstr "Ctrl+1"
 
-#: ui/main.py:2707
+#: ui/main.py:2722
 #, fuzzy
 msgid "Alt+m"
 msgstr "Ctrl+1"
@@ -1007,8 +1007,8 @@ msgid ""
 "into a bug report:<br>\n"
 msgstr ""
 
-#: ui/deckproperties.py:188 ui/main.py:2647 forms/main.py:1378
-#: forms/sort.py:45 forms/syncdeck.py:42
+#: ui/deckproperties.py:188 ui/main.py:2662 forms/main.py:1378
+#: forms/syncdeck.py:42
 msgid "Anki"
 msgstr "Anki"
 
@@ -1144,7 +1144,7 @@ msgstr ""
 msgid "Can only operate on one model at a time."
 msgstr ""
 
-#: ui/main.py:2662
+#: ui/main.py:2677
 msgid "Cancel"
 msgstr "取消"
 
@@ -1511,7 +1511,7 @@ msgstr ""
 msgid "Czech"
 msgstr "Ceština"
 
-#: ui/main.py:2639
+#: ui/main.py:2654
 #, python-format
 msgid ""
 "Database optimized.\n"
@@ -1549,7 +1549,7 @@ msgstr "删除关联"
 msgid "Delete Cards"
 msgstr "删除卡片"
 
-#: ui/main.py:2660
+#: ui/main.py:2675
 msgid "Delete Refs"
 msgstr "删除关联"
 
@@ -1568,10 +1568,6 @@ msgstr ""
 #: ui/sync.py:133
 msgid "Determining differences..."
 msgstr "将本地卡片组与远程卡片组进行比较..."
-
-#: forms/infodialog.py:36
-msgid "Dialog"
-msgstr ""
 
 #: ui/modelproperties.py:326
 msgid "Disa&ble"
@@ -2208,7 +2204,7 @@ msgstr ""
 msgid "No fact tags"
 msgstr ""
 
-#: ui/main.py:2680
+#: ui/main.py:2695
 msgid "No media URLs defined for this deck."
 msgstr ""
 
@@ -2309,10 +2305,6 @@ msgstr "请先加入一张卡片"
 msgid "Please add another model first."
 msgstr ""
 
-#: forms/sort.py:46
-msgid "Please choose a field to sort by."
-msgstr ""
-
 #: ui/sync.py:70
 msgid "Please double-check your username/password."
 msgstr ""
@@ -2336,7 +2328,7 @@ msgstr ""
 msgid "Please install python-matplotlib to access graphs."
 msgstr ""
 
-#: ui/main.py:2605
+#: ui/main.py:2620
 msgid "Please restart Anki before checking the DB."
 msgstr ""
 
@@ -2393,7 +2385,7 @@ msgstr "预览卡片"
 msgid "Previous colour (F7 then F6)"
 msgstr "上一个颜色 (F7 然后 F6)"
 
-#: ui/main.py:2620
+#: ui/main.py:2635
 #, python-format
 msgid ""
 "Problems found:\n"
@@ -2805,7 +2797,7 @@ msgstr "同步媒体文件..."
 msgid "Syncing failed: %(a)s"
 msgstr "同步失败 :  %(a)s"
 
-#: ui/main.py:2658
+#: ui/main.py:2673
 msgid "Tag Cards"
 msgstr "标记卡片"
 
@@ -2952,7 +2944,7 @@ msgid ""
 "You will need to remove the source first."
 msgstr ""
 
-#: ui/main.py:2607
+#: ui/main.py:2622
 msgid ""
 "This operation will find and fix some common problems.<br>\n"
 "<br>\n"
@@ -2970,7 +2962,7 @@ msgstr ""
 "<b>此操作无法还原。</b><br>\n"
 "是否进行操作？"
 
-#: ui/main.py:2649
+#: ui/main.py:2664
 msgid ""
 "This operation:<br>\n"
 " - deletes files not referenced by cards<br>\n"
@@ -3179,7 +3171,7 @@ msgstr ""
 msgid "X"
 msgstr ""
 
-#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2643
+#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2658
 msgid "You are currently cramming. Please close this deck first."
 msgstr ""
 

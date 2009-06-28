@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anki Japanese Translation v0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 09:49+0900\n"
+"POT-Creation-Date: 2009-06-28 20:13+0200\n"
 "PO-Revision-Date: 2009-06-17 01:43-0800\n"
 "Last-Translator: Jarvik7 <jarvik7@gmail.com>\n"
 "Language-Team: Jarvik7 <jarvik7@gmail.com>\n"
@@ -120,13 +120,13 @@ msgstr[0] ""
 msgid "%d exported."
 msgstr "%d個をエクスポートしました。"
 
-#: ui/main.py:2683
+#: ui/main.py:2698
 #, python-format
 msgid "%d missing file found.<br>"
 msgid_plural "%d missing files found.<br>"
 msgstr[0] ""
 
-#: ui/main.py:2672
+#: ui/main.py:2687
 #, python-format
 msgid "%d missing reference."
 msgid_plural "%d missing references."
@@ -139,12 +139,12 @@ msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d個が選択されている"
 
-#: ui/main.py:2686
+#: ui/main.py:2701
 #, python-format
 msgid "%d successfully retrieved."
 msgstr ""
 
-#: ui/main.py:2674
+#: ui/main.py:2689
 #, python-format
 msgid "%d unused file removed."
 msgid_plural "%d unused files removed."
@@ -948,7 +948,7 @@ msgstr "既に詰め込み勉強中です。先にこの単語帳を閉じてく
 msgid "Alt+%d"
 msgstr "Alt+%d"
 
-#: ui/main.py:2707
+#: ui/main.py:2722
 msgid "Alt+m"
 msgstr "Alt+M"
 
@@ -989,8 +989,8 @@ msgid ""
 "into a bug report:<br>\n"
 msgstr ""
 
-#: ui/deckproperties.py:188 ui/main.py:2647 forms/main.py:1378
-#: forms/sort.py:45 forms/syncdeck.py:42
+#: ui/deckproperties.py:188 ui/main.py:2662 forms/main.py:1378
+#: forms/syncdeck.py:42
 msgid "Anki"
 msgstr "Anki"
 
@@ -1128,7 +1128,7 @@ msgstr ""
 msgid "Can only operate on one model at a time."
 msgstr ""
 
-#: ui/main.py:2662
+#: ui/main.py:2677
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -1487,7 +1487,7 @@ msgstr "同期、スケジュール、優先設定、モデルなどを設定す
 msgid "Czech"
 msgstr "Česky"
 
-#: ui/main.py:2639
+#: ui/main.py:2654
 #, python-format
 msgid ""
 "Database optimized.\n"
@@ -1525,7 +1525,7 @@ msgstr "%sをさくじょしますか。"
 msgid "Delete Cards"
 msgstr "カードを削除"
 
-#: ui/main.py:2660
+#: ui/main.py:2675
 msgid "Delete Refs"
 msgstr "カードタグを削除"
 
@@ -1545,10 +1545,6 @@ msgstr "現在のカードを削除する"
 #, fuzzy
 msgid "Determining differences..."
 msgstr "格差を究明中…"
-
-#: forms/infodialog.py:36
-msgid "Dialog"
-msgstr ""
 
 #: ui/modelproperties.py:326
 msgid "Disa&ble"
@@ -2173,7 +2169,7 @@ msgstr "現在のカードも先のカードもありません。"
 msgid "No fact tags"
 msgstr "タグが付いていない"
 
-#: ui/main.py:2680
+#: ui/main.py:2695
 msgid "No media URLs defined for this deck."
 msgstr ""
 
@@ -2269,10 +2265,6 @@ msgstr "先に新規テンプレートを追加してください。"
 msgid "Please add another model first."
 msgstr "まずもう一つのモデルを作成してください。"
 
-#: forms/sort.py:46
-msgid "Please choose a field to sort by."
-msgstr "フィールドの整列を選んでください。"
-
 #: ui/sync.py:70
 msgid "Please double-check your username/password."
 msgstr "ユーザー名とパスワードを確認してください。"
@@ -2297,7 +2289,7 @@ msgstr ""
 msgid "Please install python-matplotlib to access graphs."
 msgstr "python-matplotlabが必要です。python-matplotlibをインストールしてください。"
 
-#: ui/main.py:2605
+#: ui/main.py:2620
 msgid "Please restart Anki before checking the DB."
 msgstr "データベースを検査する前にAnkiを再起動してください。"
 
@@ -2355,7 +2347,7 @@ msgstr "カードをプレビュー"
 msgid "Previous colour (F7 then F6)"
 msgstr "前の色（F7そしてF6）"
 
-#: ui/main.py:2620
+#: ui/main.py:2635
 #, python-format
 msgid ""
 "Problems found:\n"
@@ -2768,7 +2760,7 @@ msgstr "メディアを同期中…"
 msgid "Syncing failed: %(a)s"
 msgstr "同期が出来ませんでした：%(a)s"
 
-#: ui/main.py:2658
+#: ui/main.py:2673
 #, fuzzy
 msgid "Tag Cards"
 msgstr "最後のカード"
@@ -2922,7 +2914,7 @@ msgstr ""
 "はこのモデルを使用しています。\n"
 "先にソースを削除してください。"
 
-#: ui/main.py:2607
+#: ui/main.py:2622
 msgid ""
 "This operation will find and fix some common problems.<br>\n"
 "<br>\n"
@@ -2933,7 +2925,7 @@ msgid ""
 "Proceed?"
 msgstr ""
 
-#: ui/main.py:2649
+#: ui/main.py:2664
 msgid ""
 "This operation:<br>\n"
 " - deletes files not referenced by cards<br>\n"
@@ -3154,7 +3146,7 @@ msgstr ""
 msgid "X"
 msgstr ""
 
-#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2643
+#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2658
 msgid "You are currently cramming. Please close this deck first."
 msgstr "現在は詰め込み勉強中です。先にこの単語帳を閉じてください。"
 
@@ -3326,6 +3318,9 @@ msgstr ""
 
 #~ msgid "Please check the proxy settings."
 #~ msgstr "プロキシの設定を確認してくださし。"
+
+#~ msgid "Please choose a field to sort by."
+#~ msgstr "フィールドの整列を選んでください。"
 
 #~ msgid "Repeat &Answer Audio"
 #~ msgstr "解答の音声を再生(&A)"

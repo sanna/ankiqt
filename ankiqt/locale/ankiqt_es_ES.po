@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anki 0.9.7.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 09:49+0900\n"
+"POT-Creation-Date: 2009-06-28 20:13+0200\n"
 "PO-Revision-Date: 2009-06-08 20:55+0100\n"
 "Last-Translator: \n"
 "Language-Team: Spanish <pcsl88@gmail.com>\n"
@@ -123,14 +123,14 @@ msgstr[1] ""
 msgid "%d exported."
 msgstr "%d exportadas."
 
-#: ui/main.py:2683
+#: ui/main.py:2698
 #, fuzzy, python-format
 msgid "%d missing file found.<br>"
 msgid_plural "%d missing files found.<br>"
 msgstr[0] "%d referencia no encontrada."
 msgstr[1] "%d referencias no encontradas."
 
-#: ui/main.py:2672
+#: ui/main.py:2687
 #, python-format
 msgid "%d missing reference."
 msgid_plural "%d missing references."
@@ -144,12 +144,12 @@ msgid_plural "%d selected"
 msgstr[0] "%d seleccionada"
 msgstr[1] "%d seleccionadas"
 
-#: ui/main.py:2686
+#: ui/main.py:2701
 #, python-format
 msgid "%d successfully retrieved."
 msgstr ""
 
-#: ui/main.py:2674
+#: ui/main.py:2689
 #, python-format
 msgid "%d unused file removed."
 msgid_plural "%d unused files removed."
@@ -958,7 +958,7 @@ msgstr "Empollando ya. Por favor, cierre antes el mazo."
 msgid "Alt+%d"
 msgstr "Alt+%d"
 
-#: ui/main.py:2707
+#: ui/main.py:2722
 msgid "Alt+m"
 msgstr "Alt+m"
 
@@ -1011,8 +1011,8 @@ msgstr ""
 "Si eso no arregla el problema, por favor copie lo siguiente<br>\n"
 "en un aviso de fallo:<br>\n"
 
-#: ui/deckproperties.py:188 ui/main.py:2647 forms/main.py:1378
-#: forms/sort.py:45 forms/syncdeck.py:42
+#: ui/deckproperties.py:188 ui/main.py:2662 forms/main.py:1378
+#: forms/syncdeck.py:42
 msgid "Anki"
 msgstr "Anki"
 
@@ -1151,7 +1151,7 @@ msgstr "Puede cambiar solamente un modelo a la vez."
 msgid "Can only operate on one model at a time."
 msgstr "Solo se puede operar con un modelo a la vez"
 
-#: ui/main.py:2662
+#: ui/main.py:2677
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1506,7 +1506,7 @@ msgstr "Personalizar sincronización, programación, prioridades y modelos"
 msgid "Czech"
 msgstr "Checo"
 
-#: ui/main.py:2639
+#: ui/main.py:2654
 #, python-format
 msgid ""
 "Database optimized.\n"
@@ -1544,7 +1544,7 @@ msgstr "¿Eliminar %s?"
 msgid "Delete Cards"
 msgstr "Eliminar Tarjetas"
 
-#: ui/main.py:2660
+#: ui/main.py:2675
 msgid "Delete Refs"
 msgstr "Eliminar Refs"
 
@@ -1563,10 +1563,6 @@ msgstr "Eliminar la tarjeta mostrada actualmente"
 #: ui/sync.py:133
 msgid "Determining differences..."
 msgstr "Determinando las diferencias..."
-
-#: forms/infodialog.py:36
-msgid "Dialog"
-msgstr "Diálogo"
 
 #: ui/modelproperties.py:326
 msgid "Disa&ble"
@@ -2192,7 +2188,7 @@ msgstr "No hay tarjeta actual ni anterior."
 msgid "No fact tags"
 msgstr "Sin etiquetas de hecho"
 
-#: ui/main.py:2680
+#: ui/main.py:2695
 msgid "No media URLs defined for this deck."
 msgstr ""
 
@@ -2289,10 +2285,6 @@ msgstr "Por favor, añada antes una nueva plantilla."
 msgid "Please add another model first."
 msgstr "Por favor, añada otro modelo antes."
 
-#: forms/sort.py:46
-msgid "Please choose a field to sort by."
-msgstr "Elija un campo por el que ordenar las tarjetas."
-
 #: ui/sync.py:70
 msgid "Please double-check your username/password."
 msgstr "Por favor, revise dos veces su usuario y contraseña."
@@ -2317,7 +2309,7 @@ msgstr ""
 msgid "Please install python-matplotlib to access graphs."
 msgstr "Por favor, instale python-matplotlib para ver las gráficas."
 
-#: ui/main.py:2605
+#: ui/main.py:2620
 msgid "Please restart Anki before checking the DB."
 msgstr "Por favor, reinicie Anki antes de comprobar la BD"
 
@@ -2373,7 +2365,7 @@ msgstr "Previsualizar Tarjetas"
 msgid "Previous colour (F7 then F6)"
 msgstr "Color anterior (F7, F6)"
 
-#: ui/main.py:2620
+#: ui/main.py:2635
 #, python-format
 msgid ""
 "Problems found:\n"
@@ -2784,7 +2776,7 @@ msgstr "Sincronizando Multimedia..."
 msgid "Syncing failed: %(a)s"
 msgstr "Sincronización fallida: %(a)s"
 
-#: ui/main.py:2658
+#: ui/main.py:2673
 msgid "Tag Cards"
 msgstr "Etiquetas de Tarjetas"
 
@@ -2943,7 +2935,7 @@ msgstr ""
 "%s\n"
 "Necesitará eleminar el origen primero."
 
-#: ui/main.py:2607
+#: ui/main.py:2622
 msgid ""
 "This operation will find and fix some common problems.<br>\n"
 "<br>\n"
@@ -2961,7 +2953,7 @@ msgstr ""
 "<b>Esta operación no es reversible.</b><br>\n"
 "¿Continuar?"
 
-#: ui/main.py:2649
+#: ui/main.py:2664
 msgid ""
 "This operation:<br>\n"
 " - deletes files not referenced by cards<br>\n"
@@ -3192,7 +3184,7 @@ msgstr ""
 msgid "X"
 msgstr ""
 
-#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2643
+#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2658
 msgid "You are currently cramming. Please close this deck first."
 msgstr "Está empollando actualmente. Por favor, cierre antes el mazo."
 
@@ -3628,6 +3620,9 @@ msgstr "toplabel"
 #~ msgid "Del"
 #~ msgstr "Supr"
 
+#~ msgid "Dialog"
+#~ msgstr "Diálogo"
+
 #~ msgid "Download Deck"
 #~ msgstr "Descargar Mazo"
 
@@ -3704,6 +3699,9 @@ msgstr "toplabel"
 
 #~ msgid "Please check the proxy settings."
 #~ msgstr "Por favor, compruebe la configuración del proxy"
+
+#~ msgid "Please choose a field to sort by."
+#~ msgstr "Elija un campo por el que ordenar las tarjetas."
 
 #~ msgid "Repeat &Answer Audio"
 #~ msgstr "Repetir &Respuesta de Sonido"

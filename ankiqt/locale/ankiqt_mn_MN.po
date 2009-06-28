@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 09:49+0900\n"
+"POT-Creation-Date: 2009-06-28 20:13+0200\n"
 "PO-Revision-Date: 2009-04-20 13:10+0600\n"
 "Last-Translator: Charlene <charlener@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,14 +128,14 @@ msgstr[1] ""
 msgid "%d exported."
 msgstr "%d экспортолсон."
 
-#: ui/main.py:2683
+#: ui/main.py:2698
 #, python-format
 msgid "%d missing file found.<br>"
 msgid_plural "%d missing files found.<br>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/main.py:2672
+#: ui/main.py:2687
 #, python-format
 msgid "%d missing reference."
 msgid_plural "%d missing references."
@@ -149,12 +149,12 @@ msgid_plural "%d selected"
 msgstr[0] "%d-г сонгосон"
 msgstr[1] "%d-г сонгосон"
 
-#: ui/main.py:2686
+#: ui/main.py:2701
 #, python-format
 msgid "%d successfully retrieved."
 msgstr ""
 
-#: ui/main.py:2674
+#: ui/main.py:2689
 #, fuzzy, python-format
 msgid "%d unused file removed."
 msgid_plural "%d unused files removed."
@@ -982,7 +982,7 @@ msgstr "Одоо оройтож бэлтгэж байна. Эхлээд цугл
 msgid "Alt+%d"
 msgstr "Alt+%d"
 
-#: ui/main.py:2707
+#: ui/main.py:2722
 #, fuzzy
 msgid "Alt+m"
 msgstr "Alt+%d"
@@ -1038,8 +1038,8 @@ msgstr ""
 "Алдааг засварлахгүй бол дараагийн нь<br>\n"
 "алдааны тайланд хуулаарай:<br><br>\n"
 
-#: ui/deckproperties.py:188 ui/main.py:2647 forms/main.py:1378
-#: forms/sort.py:45 forms/syncdeck.py:42
+#: ui/deckproperties.py:188 ui/main.py:2662 forms/main.py:1378
+#: forms/syncdeck.py:42
 msgid "Anki"
 msgstr "Анки"
 
@@ -1179,7 +1179,7 @@ msgstr "Зүйлээс зөвхөн нэг нэгийг нь өөрчлөх ча
 msgid "Can only operate on one model at a time."
 msgstr "Зүйлээс зөвхөн нэг нэгийг нь өөрчлөх чадна."
 
-#: ui/main.py:2662
+#: ui/main.py:2677
 msgid "Cancel"
 msgstr "Хүчингүй"
 
@@ -1539,7 +1539,7 @@ msgstr "Давхцал, төлөвлөлт, яаралууд, бас зүйлү�
 msgid "Czech"
 msgstr "Чех хэл"
 
-#: ui/main.py:2639
+#: ui/main.py:2654
 #, python-format
 msgid ""
 "Database optimized.\n"
@@ -1577,7 +1577,7 @@ msgstr "Лавлахуудыг устгах"
 msgid "Delete Cards"
 msgstr "Картуудыг устга"
 
-#: ui/main.py:2660
+#: ui/main.py:2675
 msgid "Delete Refs"
 msgstr "Лавлахуудыг устгах"
 
@@ -1596,10 +1596,6 @@ msgstr "Одоогийн картыг устгах"
 #: ui/sync.py:133
 msgid "Determining differences..."
 msgstr "Ялгааг тодорхойлж байна..."
-
-#: forms/infodialog.py:36
-msgid "Dialog"
-msgstr "Диалог"
 
 #: ui/modelproperties.py:326
 msgid "Disa&ble"
@@ -2232,7 +2228,7 @@ msgstr "Одоогийн бас сүүлийн карт байхгүй."
 msgid "No fact tags"
 msgstr "Шошгогүй"
 
-#: ui/main.py:2680
+#: ui/main.py:2695
 msgid "No media URLs defined for this deck."
 msgstr ""
 
@@ -2333,10 +2329,6 @@ msgstr "Эхлээд шинэ талбарыг нэмнэ уу?"
 msgid "Please add another model first."
 msgstr "Дахин зүйл нэмнэ уу?"
 
-#: forms/sort.py:46
-msgid "Please choose a field to sort by."
-msgstr "Талбараас эрэмбэлэхээр нь сонго."
-
 #: ui/sync.py:70
 msgid "Please double-check your username/password."
 msgstr "Та зөв хэрэглэгчийн нэр, нууц үгийг оруулна уу?"
@@ -2360,7 +2352,7 @@ msgstr "Дуу хураахаар <a href=\"http://www.thalictrum.com/software/l
 msgid "Please install python-matplotlib to access graphs."
 msgstr "Диаграммууд руу орох болохоор python-matplotlib-г суулгаарай."
 
-#: ui/main.py:2605
+#: ui/main.py:2620
 msgid "Please restart Anki before checking the DB."
 msgstr "Өгөгдлийн саныг шалгахыг өмнө Анки дахин асаарай."
 
@@ -2418,7 +2410,7 @@ msgstr "Картуудыг өмнөх үзэх"
 msgid "Previous colour (F7 then F6)"
 msgstr "Өнгөрсөн өнгө (F6 тэгээд F7)"
 
-#: ui/main.py:2620
+#: ui/main.py:2635
 #, python-format
 msgid ""
 "Problems found:\n"
@@ -2835,7 +2827,7 @@ msgstr "Медиа түдгэлзүүлж байна..."
 msgid "Syncing failed: %(a)s"
 msgstr "Давхцал дампуурсан: %(a)s"
 
-#: ui/main.py:2658
+#: ui/main.py:2673
 msgid "Tag Cards"
 msgstr "Картуудыг шошго хий"
 
@@ -2994,7 +2986,7 @@ msgstr ""
 "%s\n"
 "Эхлээд та эх үүсвэрийг устгах хэрэгтэй."
 
-#: ui/main.py:2607
+#: ui/main.py:2622
 msgid ""
 "This operation will find and fix some common problems.<br>\n"
 "<br>\n"
@@ -3012,7 +3004,7 @@ msgstr ""
 "<b>Энэ гүйцэтгэлийг тайлж чадахгүй шүү дээ.</b><br>\n"
 "Үргэлжлэх мөн уу?"
 
-#: ui/main.py:2649
+#: ui/main.py:2664
 msgid ""
 "This operation:<br>\n"
 " - deletes files not referenced by cards<br>\n"
@@ -3245,7 +3237,7 @@ msgstr ""
 msgid "X"
 msgstr ""
 
-#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2643
+#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2658
 #, fuzzy
 msgid "You are currently cramming. Please close this deck first."
 msgstr "Одоо оройтож бэлтгэж байна. Эхлээд цуглуулгыг хаана уу?"
@@ -3491,6 +3483,9 @@ msgstr "toplabel"
 #~ msgid "Customize card layout, fields, etc"
 #~ msgstr "Картын байрлал, талбарууд, гэх мэтийг тохируулах"
 
+#~ msgid "Dialog"
+#~ msgstr "Диалог"
+
 #, fuzzy
 #~ msgid "Download Deck"
 #~ msgstr "Нийтийн Цуглуулгыг тат"
@@ -3528,6 +3523,9 @@ msgstr "toplabel"
 
 #~ msgid "Please add a new card first."
 #~ msgstr "Эхлээд шинэ картыг нэмнэ уу?"
+
+#~ msgid "Please choose a field to sort by."
+#~ msgstr "Талбараас эрэмбэлэхээр нь сонго."
 
 #~ msgid "Repeat &Answer Audio"
 #~ msgstr "&Хариултын дуу дахиад тоглох"

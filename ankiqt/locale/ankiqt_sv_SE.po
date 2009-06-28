@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ankiqt 0.9.9.8.3\n"
+"Project-Id-Version: ankiqt 0.9.9.8.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 09:49+0900\n"
-"PO-Revision-Date: 2009-06-25 11:32+0100\n"
+"POT-Creation-Date: 2009-06-28 20:13+0200\n"
+"PO-Revision-Date: 2009-06-28 20:13+0100\n"
 "Last-Translator: Susanna Björverud <susanna.bjorverud@telia.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -127,14 +127,14 @@ msgstr[1] "%6d dagar sedan"
 msgid "%d exported."
 msgstr "%d exporterades."
 
-#: ui/main.py:2683
+#: ui/main.py:2698
 #, python-format
 msgid "%d missing file found.<br>"
 msgid_plural "%d missing files found.<br>"
 msgstr[0] "%d saknad fil har hittats.<br>"
 msgstr[1] "%d saknade filer har hittats.<br>"
 
-#: ui/main.py:2672
+#: ui/main.py:2687
 #, python-format
 msgid "%d missing reference."
 msgid_plural "%d missing references."
@@ -148,12 +148,12 @@ msgid_plural "%d selected"
 msgstr[0] "%d valt"
 msgstr[1] "%d valda"
 
-#: ui/main.py:2686
+#: ui/main.py:2701
 #, python-format
 msgid "%d successfully retrieved."
 msgstr "%d har återställts."
 
-#: ui/main.py:2674
+#: ui/main.py:2689
 #, python-format
 msgid "%d unused file removed."
 msgid_plural "%d unused files removed."
@@ -958,7 +958,7 @@ msgstr "Håller redan på att plugga. Stäng denna kortlek först."
 msgid "Alt+%d"
 msgstr "Alt+%d"
 
-#: ui/main.py:2707
+#: ui/main.py:2722
 msgid "Alt+m"
 msgstr "Alt+m"
 
@@ -1011,8 +1011,8 @@ msgstr ""
 "Om detta inte löser problemet, kopiera följande text<br>\n"
 "till en felrapport:<br>\n"
 
-#: ui/deckproperties.py:188 ui/main.py:2647 forms/main.py:1378
-#: forms/sort.py:45 forms/syncdeck.py:42
+#: ui/deckproperties.py:188 ui/main.py:2662 forms/main.py:1378
+#: forms/syncdeck.py:42
 msgid "Anki"
 msgstr "Anki"
 
@@ -1059,12 +1059,12 @@ msgstr "Tillämpar svar..."
 
 #: forms/importing.py:103
 msgid "Auto-detect file format"
-msgstr ""
+msgstr "Bestäm filformat automatiskt"
 
 #: ui/importing.py:159
 #, python-format
 msgid "Auto-detected &delimiter: %s"
-msgstr ""
+msgstr "Automatiskt fastställd &fältavgränsare: %s"
 
 #: ui/status.py:234 ui/status.py:239
 msgid "Average time per answer: "
@@ -1134,6 +1134,9 @@ msgid ""
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
 "you can enter it here. Use \\t to represent tab."
 msgstr ""
+"Som förval identifierar Anki vilket tecken som används för att\n"
+"skilja fält åt, som tabbsteg, komma osv. Om Anki gör ett felaktigt\n"
+"val av tecken, så kan du ange rätt tecken här. Använd \\t för tabbsteg."
 
 #: forms/main.py:1479
 msgid "C&ram..."
@@ -1151,7 +1154,7 @@ msgstr "Du kan bara ändra en modell åt gången."
 msgid "Can only operate on one model at a time."
 msgstr "Kan enbart arbeta med en modell åt gången."
 
-#: ui/main.py:2662
+#: ui/main.py:2677
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -1504,7 +1507,7 @@ msgstr "Anpassa synkronisering, schemaläggning, prioritering och modeller."
 msgid "Czech"
 msgstr "Tjeckiska"
 
-#: ui/main.py:2639
+#: ui/main.py:2654
 #, python-format
 msgid ""
 "Database optimized.\n"
@@ -1542,7 +1545,7 @@ msgstr "Ta bort  %s?"
 msgid "Delete Cards"
 msgstr "Ta bort kort"
 
-#: ui/main.py:2660
+#: ui/main.py:2675
 msgid "Delete Refs"
 msgstr "Ta bort referenser"
 
@@ -1561,10 +1564,6 @@ msgstr "Ta bort det kort som just nu visas"
 #: ui/sync.py:133
 msgid "Determining differences..."
 msgstr "Fastställer skillnader..."
-
-#: forms/infodialog.py:36
-msgid "Dialog"
-msgstr "Dialog"
 
 #: ui/modelproperties.py:326
 msgid "Disa&ble"
@@ -2016,9 +2015,8 @@ msgid "Korean"
 msgstr "Koreanska"
 
 #: ui/cardlist.py:244 ui/cardlist.py:441
-#, fuzzy
 msgid "Lapses"
-msgstr "Inlärningsgrader"
+msgstr "Ofullständiga"
 
 #: ui/facteditor.py:304
 msgid "Latex (Ctrl+l then l)"
@@ -2055,7 +2053,7 @@ msgstr "Importlog:\n"
 #: ui/importing.py:157
 #, python-format
 msgid "Manual &delimiter: %s"
-msgstr ""
+msgstr "Manuell fältavgränsare: %s"
 
 #: ui/importing.py:24
 #, python-format
@@ -2134,7 +2132,7 @@ msgstr "Flytta valt fält uppåt"
 
 #: ui/cardlist.py:1292
 msgid "Must map at least one template."
-msgstr ""
+msgstr "Måste knytas till åtminstone en modell."
 
 #: ui/deckproperties.py:85
 msgid "Name"
@@ -2184,7 +2182,7 @@ msgstr "Inget aktuellt eller senaste kort."
 msgid "No fact tags"
 msgstr "Inga etiketter på faktauppgifter"
 
-#: ui/main.py:2680
+#: ui/main.py:2695
 msgid "No media URLs defined for this deck."
 msgstr "Inga media-URL:er definierade för denna kortlek."
 
@@ -2278,10 +2276,6 @@ msgstr "Lägg först till en ny mall."
 msgid "Please add another model first."
 msgstr "Lägg först till en annan modell."
 
-#: forms/sort.py:46
-msgid "Please choose a field to sort by."
-msgstr "Välj ett fält att sortera efter"
-
 #: ui/sync.py:70
 msgid "Please double-check your username/password."
 msgstr "Kontrollera ditt användarnamn och lösenord en gång till."
@@ -2306,7 +2300,7 @@ msgstr ""
 msgid "Please install python-matplotlib to access graphs."
 msgstr "Installera python-matplotlib för att kunna använda diagram."
 
-#: ui/main.py:2605
+#: ui/main.py:2620
 msgid "Please restart Anki before checking the DB."
 msgstr "Starta om Anki innan du kontrollerar databasen."
 
@@ -2362,7 +2356,7 @@ msgstr "Förhandsgranska kort"
 msgid "Previous colour (F7 then F6)"
 msgstr "Föregående färg (F7 därefter F6)"
 
-#: ui/main.py:2620
+#: ui/main.py:2635
 #, python-format
 msgid ""
 "Problems found:\n"
@@ -2676,9 +2670,8 @@ msgid "Sort as numbers"
 msgstr "Sortera som tal"
 
 #: ui/facteditor.py:874
-#, fuzzy
 msgid "Sounds/Videos (*.mp3 *.ogg *.wav *.avi *.ogv *.mpg *.mpeg *.mov)"
-msgstr "Ljud/Film (*.mp3 *.ogg *.wav)"
+msgstr "Ljud/Film (*.mp3 *.ogg *.wav *.avi *.ogv *.mpg *.mpeg *.mov)"
 
 #: ui/deckproperties.py:189
 msgid "Source ID:"
@@ -2768,7 +2761,7 @@ msgstr "Synkroniserar media..."
 msgid "Syncing failed: %(a)s"
 msgstr "Synkronisering misslyckades: %(a)s"
 
-#: ui/main.py:2658
+#: ui/main.py:2673
 msgid "Tag Cards"
 msgstr "Sätt etikett på kort"
 
@@ -2927,7 +2920,7 @@ msgstr ""
 "%s\n"
 "Du måste ta bort den källan först."
 
-#: ui/main.py:2607
+#: ui/main.py:2622
 msgid ""
 "This operation will find and fix some common problems.<br>\n"
 "<br>\n"
@@ -2945,7 +2938,7 @@ msgstr ""
 "<b>Denna åtgärd kan inte ångras.</b><br>\n"
 "Fortsätt?"
 
-#: ui/main.py:2649
+#: ui/main.py:2664
 msgid ""
 "This operation:<br>\n"
 " - deletes files not referenced by cards<br>\n"
@@ -3177,7 +3170,7 @@ msgstr "Skrivet av Damien Elmes, med patchar, översättning, uttestning och utf
 msgid "X"
 msgstr "X"
 
-#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2643
+#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2658
 msgid "You are currently cramming. Please close this deck first."
 msgstr "Du håller för närvarande på med att råplugga. Stäng denna kortlek först."
 
@@ -3670,6 +3663,9 @@ msgstr "toppetikett"
 #~ msgid "Del"
 #~ msgstr "Ta bort"
 
+#~ msgid "Dialog"
+#~ msgstr "Dialog"
+
 #~ msgid "Download Deck"
 #~ msgstr "Hämta kortlek"
 
@@ -3738,6 +3734,9 @@ msgstr "toppetikett"
 
 #~ msgid "Please check the proxy settings."
 #~ msgstr "Kontrollera proxyinställningar"
+
+#~ msgid "Please choose a field to sort by."
+#~ msgstr "Välj ett fält att sortera efter"
 
 #~ msgid "Repeat &Answer Audio"
 #~ msgstr "Upprepa &svarsljud"

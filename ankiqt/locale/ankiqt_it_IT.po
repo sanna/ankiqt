@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 09:49+0900\n"
+"POT-Creation-Date: 2009-06-28 20:13+0200\n"
 "PO-Revision-Date: 2008-10-24 14:28+0100\n"
 "Last-Translator: Marco Giancotti <nac.est@libero.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,14 +127,14 @@ msgstr[1] ""
 msgid "%d exported."
 msgstr "%d esportate."
 
-#: ui/main.py:2683
+#: ui/main.py:2698
 #, python-format
 msgid "%d missing file found.<br>"
 msgid_plural "%d missing files found.<br>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/main.py:2672
+#: ui/main.py:2687
 #, python-format
 msgid "%d missing reference."
 msgid_plural "%d missing references."
@@ -148,12 +148,12 @@ msgid_plural "%d selected"
 msgstr[0] "%(del)d eliminate."
 msgstr[1] "%(del)d eliminate."
 
-#: ui/main.py:2686
+#: ui/main.py:2701
 #, python-format
 msgid "%d successfully retrieved."
 msgstr ""
 
-#: ui/main.py:2674
+#: ui/main.py:2689
 #, fuzzy, python-format
 msgid "%d unused file removed."
 msgid_plural "%d unused files removed."
@@ -1023,7 +1023,7 @@ msgstr "Già in studio intensivo. Chiudere questo mazzo prima di proseguire."
 msgid "Alt+%d"
 msgstr ""
 
-#: ui/main.py:2707
+#: ui/main.py:2722
 msgid "Alt+m"
 msgstr ""
 
@@ -1069,8 +1069,8 @@ msgid ""
 "into a bug report:<br>\n"
 msgstr ""
 
-#: ui/deckproperties.py:188 ui/main.py:2647 forms/main.py:1378
-#: forms/sort.py:45 forms/syncdeck.py:42
+#: ui/deckproperties.py:188 ui/main.py:2662 forms/main.py:1378
+#: forms/syncdeck.py:42
 msgid "Anki"
 msgstr ""
 
@@ -1213,7 +1213,7 @@ msgstr ""
 msgid "Can only operate on one model at a time."
 msgstr ""
 
-#: ui/main.py:2662
+#: ui/main.py:2677
 #, fuzzy
 msgid "Cancel"
 msgstr "Cambia"
@@ -1594,7 +1594,7 @@ msgstr "Personalizza sincronizzazione, programmazione, priorità e modelli"
 msgid "Czech"
 msgstr "Ceco"
 
-#: ui/main.py:2639
+#: ui/main.py:2654
 #, python-format
 msgid ""
 "Database optimized.\n"
@@ -1632,7 +1632,7 @@ msgstr "Elimina Tag.."
 msgid "Delete Cards"
 msgstr "Elimina (&D)"
 
-#: ui/main.py:2660
+#: ui/main.py:2675
 #, fuzzy
 msgid "Delete Refs"
 msgstr "Elimina Tag.."
@@ -1654,10 +1654,6 @@ msgstr ""
 #, fuzzy
 msgid "Determining differences..."
 msgstr "Determinazione differenze"
-
-#: forms/infodialog.py:36
-msgid "Dialog"
-msgstr "Finestra di dialogo"
 
 #: ui/modelproperties.py:326
 msgid "Disa&ble"
@@ -2310,7 +2306,7 @@ msgstr "Nessuna carta corrente o ultima carta."
 msgid "No fact tags"
 msgstr "Nessuna tag"
 
-#: ui/main.py:2680
+#: ui/main.py:2695
 msgid "No media URLs defined for this deck."
 msgstr ""
 
@@ -2415,10 +2411,6 @@ msgstr "Aggiungere un nuovo campo prima di procedere."
 msgid "Please add another model first."
 msgstr "Aggiungere un altro modello prima di procedere."
 
-#: forms/sort.py:46
-msgid "Please choose a field to sort by."
-msgstr "Scegliere un campo col quale ordinare l'elenco."
-
 #: ui/sync.py:70
 msgid "Please double-check your username/password."
 msgstr "Ricontrollare username/password"
@@ -2442,7 +2434,7 @@ msgstr ""
 msgid "Please install python-matplotlib to access graphs."
 msgstr "Installare python-matplotlib per visualizzare i grafici."
 
-#: ui/main.py:2605
+#: ui/main.py:2620
 msgid "Please restart Anki before checking the DB."
 msgstr ""
 
@@ -2501,7 +2493,7 @@ msgstr ""
 msgid "Previous colour (F7 then F6)"
 msgstr ""
 
-#: ui/main.py:2620
+#: ui/main.py:2635
 #, python-format
 msgid ""
 "Problems found:\n"
@@ -2944,7 +2936,7 @@ msgstr "Sincronizzazione Media.."
 msgid "Syncing failed: %(a)s"
 msgstr "Sincronizzazione fallita: %(a)s"
 
-#: ui/main.py:2658
+#: ui/main.py:2673
 #, fuzzy
 msgid "Tag Cards"
 msgstr "Carte"
@@ -3112,7 +3104,7 @@ msgstr ""
 "%s\n"
 "Devi prima eliminare l'origine."
 
-#: ui/main.py:2607
+#: ui/main.py:2622
 msgid ""
 "This operation will find and fix some common problems.<br>\n"
 "<br>\n"
@@ -3123,7 +3115,7 @@ msgid ""
 "Proceed?"
 msgstr ""
 
-#: ui/main.py:2649
+#: ui/main.py:2664
 msgid ""
 "This operation:<br>\n"
 " - deletes files not referenced by cards<br>\n"
@@ -3338,7 +3330,7 @@ msgstr ""
 msgid "X"
 msgstr ""
 
-#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2643
+#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2658
 #, fuzzy
 msgid "You are currently cramming. Please close this deck first."
 msgstr "Già in studio intensivo. Chiudere questo mazzo prima di proseguire."
@@ -3871,6 +3863,9 @@ msgstr "etichetta"
 #~ msgid "Description"
 #~ msgstr "Descrizione"
 
+#~ msgid "Dialog"
+#~ msgstr "Finestra di dialogo"
+
 #~ msgid "Difficulty"
 #~ msgstr "Difficoltà"
 
@@ -4014,6 +4009,9 @@ msgstr "etichetta"
 
 #~ msgid "Please add a new card first."
 #~ msgstr "Aggiungere una nuova carta prima di procedere."
+
+#~ msgid "Please choose a field to sort by."
+#~ msgstr "Scegliere un campo col quale ordinare l'elenco."
 
 #~ msgid "Prevent me from entering the same thing in this field twice"
 #~ msgstr "Impediscimi di inserire la stessa cosa in questo campo più di una volta"

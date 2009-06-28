@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ankiqt_fi_FI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 09:49+0900\n"
+"POT-Creation-Date: 2009-06-28 20:13+0200\n"
 "PO-Revision-Date: 2009-03-22 11:12+0200\n"
 "Last-Translator: Niklas Laxström <niklas.laxstrom AT gmail.com>\n"
 "Language-Team: Finnish <>\n"
@@ -129,14 +129,14 @@ msgstr[1] ""
 msgid "%d exported."
 msgstr "%d viety."
 
-#: ui/main.py:2683
+#: ui/main.py:2698
 #, python-format
 msgid "%d missing file found.<br>"
 msgid_plural "%d missing files found.<br>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/main.py:2672
+#: ui/main.py:2687
 #, python-format
 msgid "%d missing reference."
 msgid_plural "%d missing references."
@@ -150,12 +150,12 @@ msgid_plural "%d selected"
 msgstr[0] "Ei valintaa."
 msgstr[1] "Ei valintaa."
 
-#: ui/main.py:2686
+#: ui/main.py:2701
 #, python-format
 msgid "%d successfully retrieved."
 msgstr ""
 
-#: ui/main.py:2674
+#: ui/main.py:2689
 #, fuzzy, python-format
 msgid "%d unused file removed."
 msgid_plural "%d unused files removed."
@@ -981,7 +981,7 @@ msgstr "Olet jo pänttäystilassa. Sulje pakka ensin."
 msgid "Alt+%d"
 msgstr "Alt+%d"
 
-#: ui/main.py:2707
+#: ui/main.py:2722
 #, fuzzy
 msgid "Alt+m"
 msgstr "Alt+%d"
@@ -1036,8 +1036,8 @@ msgstr ""
 "</ol>\n"
 "Jos se ei korjaa ongelmaa, liitä seuraavat tiedot virheraporttiin:<br><br>\n"
 
-#: ui/deckproperties.py:188 ui/main.py:2647 forms/main.py:1378
-#: forms/sort.py:45 forms/syncdeck.py:42
+#: ui/deckproperties.py:188 ui/main.py:2662 forms/main.py:1378
+#: forms/syncdeck.py:42
 msgid "Anki"
 msgstr "Anki"
 
@@ -1179,7 +1179,7 @@ msgstr "Voit muuttaa vain yhtä mallia kerrallaan."
 msgid "Can only operate on one model at a time."
 msgstr "Vain yhtä mallia voi käsitellä kerrallaan."
 
-#: ui/main.py:2662
+#: ui/main.py:2677
 msgid "Cancel"
 msgstr "Peruuta"
 
@@ -1541,7 +1541,7 @@ msgstr "Mukauta synkronointia, ajastusta, prioriteetteja ja malleja."
 msgid "Czech"
 msgstr "tšekki"
 
-#: ui/main.py:2639
+#: ui/main.py:2654
 #, python-format
 msgid ""
 "Database optimized.\n"
@@ -1579,7 +1579,7 @@ msgstr "Poista viittaukset"
 msgid "Delete Cards"
 msgstr "Poista kortit"
 
-#: ui/main.py:2660
+#: ui/main.py:2675
 msgid "Delete Refs"
 msgstr "Poista viittaukset"
 
@@ -1598,10 +1598,6 @@ msgstr ""
 #: ui/sync.py:133
 msgid "Determining differences..."
 msgstr "Etsitään eroavaisuuksia..."
-
-#: forms/infodialog.py:36
-msgid "Dialog"
-msgstr ""
 
 #: ui/modelproperties.py:326
 msgid "Disa&ble"
@@ -2235,7 +2231,7 @@ msgstr "Ei nykyistä tai edellistä korttia."
 msgid "No fact tags"
 msgstr "Ei tägejä"
 
-#: ui/main.py:2680
+#: ui/main.py:2695
 msgid "No media URLs defined for this deck."
 msgstr ""
 
@@ -2338,11 +2334,6 @@ msgstr "Lisää ensin kenttä."
 msgid "Please add another model first."
 msgstr "Lisää toinen malli ensin."
 
-#: forms/sort.py:46
-#, fuzzy
-msgid "Please choose a field to sort by."
-msgstr "Lisää ensin kenttä."
-
 #: ui/sync.py:70
 msgid "Please double-check your username/password."
 msgstr "Tarkista käyttäjätunnus ja salasana."
@@ -2366,7 +2357,7 @@ msgstr "Nauhoittaminen vaatii <a href=\"http://www.thalictrum.com/software/lame-
 msgid "Please install python-matplotlib to access graphs."
 msgstr "Asenna python-matplotlib, jos haluat käyttää kuvaajia."
 
-#: ui/main.py:2605
+#: ui/main.py:2620
 msgid "Please restart Anki before checking the DB."
 msgstr "Käynnistä Anki uudelleen ennen tietokannan tarkistamista."
 
@@ -2424,7 +2415,7 @@ msgstr "Esikatsele kortteja"
 msgid "Previous colour (F7 then F6)"
 msgstr "Edellinen väri (F7 ja sitten F6)"
 
-#: ui/main.py:2620
+#: ui/main.py:2635
 #, python-format
 msgid ""
 "Problems found:\n"
@@ -2850,7 +2841,7 @@ msgstr "Synkronoidaan mediaa..."
 msgid "Syncing failed: %(a)s"
 msgstr "Synkronointi epäonnistui: %(a)s"
 
-#: ui/main.py:2658
+#: ui/main.py:2673
 msgid "Tag Cards"
 msgstr "Tägää kortteja"
 
@@ -3009,7 +3000,7 @@ msgstr ""
 "%s\n"
 "Poista lähde ensin."
 
-#: ui/main.py:2607
+#: ui/main.py:2622
 msgid ""
 "This operation will find and fix some common problems.<br>\n"
 "<br>\n"
@@ -3027,7 +3018,7 @@ msgstr ""
 "<b>Tämä operaatio on peruuttamaton</b><br>\n"
 "Haluatko jatkaa?"
 
-#: ui/main.py:2649
+#: ui/main.py:2664
 msgid ""
 "This operation:<br>\n"
 " - deletes files not referenced by cards<br>\n"
@@ -3258,7 +3249,7 @@ msgstr ""
 msgid "X"
 msgstr ""
 
-#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2643
+#: ui/main.py:1734 ui/main.py:1782 ui/main.py:2658
 #, fuzzy
 msgid "You are currently cramming. Please close this deck first."
 msgstr "Olet jo pänttäystilassa. Sulje pakka ensin."
@@ -3757,6 +3748,10 @@ msgstr ""
 
 #~ msgid "Please add a new card first."
 #~ msgstr "Lisää ensin kortteja."
+
+#, fuzzy
+#~ msgid "Please choose a field to sort by."
+#~ msgstr "Lisää ensin kenttä."
 
 #~ msgid "Repeat &Answer Audio"
 #~ msgstr "Toista &vastauksen ääni"
