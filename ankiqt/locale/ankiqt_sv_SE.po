@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ankiqt 0.9.9.8.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-28 20:13+0200\n"
-"PO-Revision-Date: 2009-06-28 20:13+0100\n"
+"POT-Creation-Date: 2009-06-28 20:21+0200\n"
+"PO-Revision-Date: 2009-06-28 20:20+0100\n"
 "Last-Translator: Susanna Björverud <susanna.bjorverud@telia.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -2016,7 +2016,7 @@ msgstr "Koreanska"
 
 #: ui/cardlist.py:244 ui/cardlist.py:441
 msgid "Lapses"
-msgstr "Ofullständiga"
+msgstr ""
 
 #: ui/facteditor.py:304
 msgid "Latex (Ctrl+l then l)"
